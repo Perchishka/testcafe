@@ -1,0 +1,24 @@
+{
+  "name": "BettyBlocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testcafe": "testcafe",
+    "test-allure": "testcafe chrome  --reporter allure tests/",
+    "test": "npm run testcafe chrome tests/",
+    "all": "npm run testcafe -- -c 2 chrome:headless tests/",
+    "safari": "npm run testcafe safari tests/",
+    "firefox": "npm run testcafe firefox tests/",
+    "browsers": "npm run testcafe -- -b browserstack"
+  },
+  "keywords": [],
+  "author": "Pertseva Ekaterina",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "testcafe": "^1.17.0",
+    "testcafe-browser-provider-browserstack": "^1.13.2-alpha.1",
+    "testcafe-reporter-allure": "^1.0.5"
+  }
+}
