@@ -13,7 +13,7 @@ fixture
     t.ctx.password = credentials.password;
 
 
-})
+}).afterEach(t=>{})
 
 test.meta({
     ID: '1',

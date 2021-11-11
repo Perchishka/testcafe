@@ -8,7 +8,9 @@
         "screenshotPathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
     },
     "pageLoadTimeout": 1000,
-    "browserInitTimeout": 360000
+    "browserInitTimeout": 360000,
+    "disablePageCaching": true,
+    "color": true
 
 
 }
