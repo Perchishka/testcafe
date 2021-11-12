@@ -24,8 +24,6 @@ jobs:
     steps:
       - name: instal project
       - uses: actions/setup-node@v2
-        with:
-          node-version: '14'
       - run: npm install
       - name: Check out the repository
         uses: actions/checkout@v1
