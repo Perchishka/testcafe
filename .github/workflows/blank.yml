@@ -34,4 +34,11 @@ jobs:
       - name: Run tests
         uses: DevExpress/testcafe-action@latest
         with:
-            args: "chrome tests"
+            args: "chrome  --reporter allure tests"
+      -name: Generate allure report
+      - run: allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report
+      - name: 🎁 Step 6 - Publishing Allure artifact to GitHub Actions
+          uses: actions/upload-artifact@v2
+          with:
+            name: allure-report
+            path: allure-report
