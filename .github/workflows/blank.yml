@@ -25,9 +25,11 @@ jobs:
         os: [ubuntu-latest]
         node: [14]
     steps:
+      - name: set up node
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node }}
+      - name: npm install
       - run: npm install
       - name: Check out the repository
         uses: actions/checkout@v2
@@ -36,8 +38,8 @@ jobs:
         with:
           args: "testcafe chrome tests -r allure"
       - name: Generate allure report
-      - run: allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report
-      - name: Step 6 - Publishing Allure artifact to GitHub Actions
+      - run: allure generate allure
+      - name: Publishing Allure artifact to GitHub Actions
         uses: actions/upload-artifact@v2
         with:
           name: allure-report
