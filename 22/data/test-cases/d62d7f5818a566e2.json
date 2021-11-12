@@ -1,0 +1,66 @@
+{
+  "uid" : "d62d7f5818a566e2",
+  "name" : "Wrong password : only lowercase letters",
+  "fullName" : "Register a new account testSuite.Wrong password : only lowercase letters",
+  "historyId" : "38669cb181efe4b781de22e4e7e20cdc",
+  "time" : {
+    "start" : 1636722472787,
+    "stop" : 1636722482579,
+    "duration" : 9792
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong password : only lowercase letters"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/3"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d62d7f5818a566e2.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/3", "regression" ]
+}

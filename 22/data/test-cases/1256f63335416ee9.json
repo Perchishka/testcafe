@@ -1,0 +1,66 @@
+{
+  "uid" : "1256f63335416ee9",
+  "name" : "Wrong password : only special symbols",
+  "fullName" : "Register a new account testSuite.Wrong password : only special symbols",
+  "historyId" : "3c929502abe4ac8d1ef18ad1a478db7d",
+  "time" : {
+    "start" : 1636722480434,
+    "stop" : 1636722487250,
+    "duration" : 6816
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong password : only special symbols"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/3"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1256f63335416ee9.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/3", "regression" ]
+}

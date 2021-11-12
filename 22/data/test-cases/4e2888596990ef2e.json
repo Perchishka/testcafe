@@ -1,0 +1,66 @@
+{
+  "uid" : "4e2888596990ef2e",
+  "name" : "Wrong email : only numbers in Local part",
+  "fullName" : "Register a new account testSuite.Wrong email : only numbers in Local part",
+  "historyId" : "1e035f60f7e7954c8173c3dc1aa6f32d",
+  "time" : {
+    "start" : 1636722493400,
+    "stop" : 1636722499708,
+    "duration" : 6308
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong email : only numbers in Local part"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/4"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e2888596990ef2e.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+}

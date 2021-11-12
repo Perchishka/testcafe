@@ -1,0 +1,66 @@
+{
+  "uid" : "b6e5f108f616623a",
+  "name" : "Wrong email : cyrillic symbols in Local-part",
+  "fullName" : "Register a new account testSuite.Wrong email : cyrillic symbols in Local-part",
+  "historyId" : "310641eac7e71cd248100be324379849",
+  "time" : {
+    "start" : 1636722490044,
+    "stop" : 1636722496772,
+    "duration" : 6728
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong email : cyrillic symbols in Local-part"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/4"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6e5f108f616623a.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+}
