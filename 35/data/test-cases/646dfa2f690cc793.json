@@ -1,0 +1,159 @@
+{
+  "uid" : "646dfa2f690cc793",
+  "name" : "Wrong email : dot in the end of local part",
+  "fullName" : "Register a new account testSuite.Wrong email : dot in the end of local part",
+  "historyId" : "623757eb91749ea186796a6132f7f7f8",
+  "time" : {
+    "start" : 1636769747931,
+    "stop" : 1636769771546,
+    "duration" : 23615
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "This test has been broken",
+  "statusTrace" : "Cannot obtain information about the node because the specified selector does not match any node in the DOM tree.\n                \n                 > | Selector('input[name=\"email_address\"]')\n                   |   .parent(0)\n                   |   .sibling('p')\n                \n                Browser: Chrome 95.0.4638.69 / Linux 0.0\n                Screenshot: /home/runner/work/testcafe/testcafe/artifacts/screenshots/2021-11-13_02-14-02/test-26/Chrome_95.0.4638.69_Linux_0.0/errors/1.png\n                \n                   33 |    async fillPasswordField(password) {\n                   34 |        await t.typeText(this.inputField('password'), password);\n                   35 |    }\n                   36 |\n                   37 |    async getErrorMessageText(field) {\n                 > 38 |        return await this.errorMessage(field).innerText;\n                   39 |    }\n                   40 |\n                   41 |    async getErrorMessagePassword() {\n                   42 |        return await this.getErrorMessageText('password');\n                   43 |    }\n                \n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:38:22)\n                   at asyncGeneratorStep (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:150)\n                   at _next (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:488)\n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:653)\n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:394)\n                   at InputFieldsFragments.getErrorMessageText (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:37:38)\n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:46:27)\n                   at asyncGeneratorStep (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:150)\n                   at _next (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:488)\n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:653)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "This test has been broken",
+    "statusTrace" : "Cannot obtain information about the node because the specified selector does not match any node in the DOM tree.\n                \n                 > | Selector('input[name=\"email_address\"]')\n                   |   .parent(0)\n                   |   .sibling('p')\n                \n                Browser: Chrome 95.0.4638.69 / Linux 0.0\n                Screenshot: /home/runner/work/testcafe/testcafe/artifacts/screenshots/2021-11-13_02-14-02/test-26/Chrome_95.0.4638.69_Linux_0.0/errors/1.png\n                \n                   33 |    async fillPasswordField(password) {\n                   34 |        await t.typeText(this.inputField('password'), password);\n                   35 |    }\n                   36 |\n                   37 |    async getErrorMessageText(field) {\n                 > 38 |        return await this.errorMessage(field).innerText;\n                   39 |    }\n                   40 |\n                   41 |    async getErrorMessagePassword() {\n                   42 |        return await this.getErrorMessageText('password');\n                   43 |    }\n                \n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:38:22)\n                   at asyncGeneratorStep (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:150)\n                   at _next (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:488)\n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:653)\n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:394)\n                   at InputFieldsFragments.getErrorMessageText (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:37:38)\n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:46:27)\n                   at asyncGeneratorStep (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:150)\n                   at _next (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:488)\n                   at <anonymous> (/home/runner/work/testcafe/testcafe/framework/ui/fragments/InputFieldsFragments.js:2:653)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b911cd344bf1a51",
+      "name" : "Screenshot",
+      "source" : "1b911cd344bf1a51.png",
+      "type" : "image/png",
+      "size" : 345993
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong email : dot in the end of local part"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/5"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "36265d01182f6c7d",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/34//#testresult/36265d01182f6c7d",
+        "status" : "failed",
+        "statusDetails" : "This test has been broken",
+        "time" : {
+          "start" : 1636769670391,
+          "stop" : 1636769689000,
+          "duration" : 18609
+        }
+      }, {
+        "uid" : "f8afc2e2d4c2baa9",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/33//#testresult/f8afc2e2d4c2baa9",
+        "status" : "failed",
+        "statusDetails" : "This test has been broken",
+        "time" : {
+          "start" : 1636769607778,
+          "stop" : 1636769626036,
+          "duration" : 18258
+        }
+      }, {
+        "uid" : "31f17144933d6cb0",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/32//#testresult/31f17144933d6cb0",
+        "status" : "failed",
+        "statusDetails" : "This test has been broken",
+        "time" : {
+          "start" : 1636769588159,
+          "stop" : 1636769607460,
+          "duration" : 19301
+        }
+      }, {
+        "uid" : "fd0fb1aa00ec1256",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/31//#testresult/fd0fb1aa00ec1256",
+        "status" : "failed",
+        "statusDetails" : "This test has been broken",
+        "time" : {
+          "start" : 1636768301921,
+          "stop" : 1636768319898,
+          "duration" : 17977
+        }
+      }, {
+        "uid" : "2e21f6e7085f6cb1",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/30//#testresult/2e21f6e7085f6cb1",
+        "status" : "failed",
+        "statusDetails" : "This test has been broken",
+        "time" : {
+          "start" : 1636768131114,
+          "stop" : 1636768148036,
+          "duration" : 16922
+        }
+      }, {
+        "uid" : "88a26ee1cbdb25cf",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/88a26ee1cbdb25cf",
+        "status" : "failed",
+        "statusDetails" : "This test has been broken",
+        "time" : {
+          "start" : 1636767679815,
+          "stop" : 1636767698138,
+          "duration" : 18323
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "646dfa2f690cc793.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+}

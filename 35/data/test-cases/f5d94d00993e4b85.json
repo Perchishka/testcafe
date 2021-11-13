@@ -1,0 +1,137 @@
+{
+  "uid" : "f5d94d00993e4b85",
+  "name" : "Wrong email : quotes and double dot in local part",
+  "fullName" : "Register a new account testSuite.Wrong email : quotes and double dot in local part",
+  "historyId" : "592aaabee22c53ff2b43a5ac354bff70",
+  "time" : {
+    "start" : 1636769708270,
+    "stop" : 1636769715120,
+    "duration" : 6850
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong email : quotes and double dot in local part"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/5"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "996555b8266055b6",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/34//#testresult/996555b8266055b6",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769645360,
+          "stop" : 1636769651909,
+          "duration" : 6549
+        }
+      }, {
+        "uid" : "529c698380ce43b9",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/33//#testresult/529c698380ce43b9",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769583450,
+          "stop" : 1636769589266,
+          "duration" : 5816
+        }
+      }, {
+        "uid" : "435367da6b2724bd",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/32//#testresult/435367da6b2724bd",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769562544,
+          "stop" : 1636769569492,
+          "duration" : 6948
+        }
+      }, {
+        "uid" : "4de06e8778c370af",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/31//#testresult/4de06e8778c370af",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636768278169,
+          "stop" : 1636768284868,
+          "duration" : 6699
+        }
+      }, {
+        "uid" : "7fcfc189d0012e97",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/30//#testresult/7fcfc189d0012e97",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636768109430,
+          "stop" : 1636768114551,
+          "duration" : 5121
+        }
+      }, {
+        "uid" : "2344fa956a8a0a5b",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/2344fa956a8a0a5b",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636767655540,
+          "stop" : 1636767661223,
+          "duration" : 5683
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f5d94d00993e4b85.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+}

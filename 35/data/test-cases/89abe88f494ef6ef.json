@@ -1,0 +1,107 @@
+{
+  "uid" : "89abe88f494ef6ef",
+  "name" : "Emty password field",
+  "fullName" : "Login test suite.Emty password field",
+  "historyId" : "a813a56943367566b7bc79ea82831ec8",
+  "time" : {
+    "start" : 1636769659218,
+    "stop" : 1636769674814,
+    "duration" : 15596
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Login test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Emty password field"
+  }, {
+    "name" : "package",
+    "value" : "Login test suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-2"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/3"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "368196e7ee3f4be1",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/34//#testresult/368196e7ee3f4be1",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769610627,
+          "stop" : 1636769623772,
+          "duration" : 13145
+        }
+      }, {
+        "uid" : "f1392ae189ed122f",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/33//#testresult/f1392ae189ed122f",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769548404,
+          "stop" : 1636769562256,
+          "duration" : 13852
+        }
+      }, {
+        "uid" : "f831f288c68f82e2",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/32//#testresult/f831f288c68f82e2",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769526186,
+          "stop" : 1636769539806,
+          "duration" : 13620
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "89abe88f494ef6ef.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/3", "regression" ]
+}
