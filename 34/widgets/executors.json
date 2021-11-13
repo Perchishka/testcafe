@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Perchishka.github.io/testcafe",
+  "buildOrder" : 34,
+  "buildName" : "GitHub Actions Run #1455490398",
+  "buildUrl" : "https://github.com/Perchishka/testcafe/actions/runs/1455490398",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Perchishka.github.io/testcafe/34/"
+} ]

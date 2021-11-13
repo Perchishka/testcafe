@@ -1,0 +1,127 @@
+{
+  "uid" : "c925a8298ab0bef3",
+  "name" : "Wrong email : only special symbols in Local part",
+  "fullName" : "Register a new account testSuite.Wrong email : only special symbols in Local part",
+  "historyId" : "effc62c4e1d94cb26906c266737668de",
+  "time" : {
+    "start" : 1636769655613,
+    "stop" : 1636769661218,
+    "duration" : 5605
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong email : only special symbols in Local part"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/5"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "d6bf3002655951e1",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/33//#testresult/d6bf3002655951e1",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769592541,
+          "stop" : 1636769598353,
+          "duration" : 5812
+        }
+      }, {
+        "uid" : "c62a5bf450c53a4e",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/32//#testresult/c62a5bf450c53a4e",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769570988,
+          "stop" : 1636769577152,
+          "duration" : 6164
+        }
+      }, {
+        "uid" : "77c94a5ba527f3ac",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/31//#testresult/77c94a5ba527f3ac",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636768285741,
+          "stop" : 1636768291455,
+          "duration" : 5714
+        }
+      }, {
+        "uid" : "16cdb21e0e25de84",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/30//#testresult/16cdb21e0e25de84",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636768116076,
+          "stop" : 1636768120855,
+          "duration" : 4779
+        }
+      }, {
+        "uid" : "83586504db8daa15",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/83586504db8daa15",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636767665863,
+          "stop" : 1636767671737,
+          "duration" : 5874
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c925a8298ab0bef3.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+}
