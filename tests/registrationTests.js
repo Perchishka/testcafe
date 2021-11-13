@@ -28,7 +28,6 @@ test.meta({
     await t.expect(redirectedLoginPage.accountCreatedAlert.exists).ok();
 });
 
-
 const validEmail = [
     {name: 'lowercase and capital leters in local part', email: 'Iri@mail.com'},
     {name: 'printable characters !#$%&\'*+-/=?^_`{|}~s in local part', email: 'iri_iri@mail.com'},
@@ -65,9 +64,7 @@ test.meta({
         .eql(errorMessage)
         .expect(await t.ctx.inputFieldsFragments.getErrorMessageEmail())
         .eql(errorMessage)
-
 });
-
 
 const invalidPassword = [
     {name: 'only capital letters', password: 'ABCDEFG12@'},
@@ -88,7 +85,6 @@ invalidPassword.forEach(c => {
         await t
             .expect(errorMessage)
             .eql('Password must contain 8 characters, 1 lowercase character, 1 upper case character, and 1 digit');
-
     });
 });
 
