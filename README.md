@@ -22,8 +22,8 @@ All test cases are located in the framework/tests package.
 You can find CI/CD configuration in github/workflows/blank.yml file.
 The workflow is triggered on push in 'develop' branch or pull request events but only for the main branch.
 
-####You can check workflow result via GitHub pages.
-####For example: https://perchishka.github.io/testcafe/29//#suites
+#### You can check workflow result via GitHub pages.
+#### For example: https://perchishka.github.io/testcafe/29//#suites
 
 ## Documentation
 Test cases / Bug Report can be found in Test_Cases_Bug_Report.docx file.
