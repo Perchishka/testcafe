@@ -1,0 +1,87 @@
+{
+  "uid" : "5abf5c4195aef42c",
+  "name" : "Empty email login",
+  "fullName" : "Login test suite.Empty email login",
+  "historyId" : "2a31797f5f2e3a3787048ee4dc96cc29",
+  "time" : {
+    "start" : 1636769549601,
+    "stop" : 1636769554701,
+    "duration" : 5100
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Login test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Empty email login"
+  }, {
+    "name" : "package",
+    "value" : "Login test suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-2"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/5"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c35d4988e04a0a46",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/32//#testresult/c35d4988e04a0a46",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636769527331,
+          "stop" : 1636769532583,
+          "duration" : 5252
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5abf5c4195aef42c.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+}
