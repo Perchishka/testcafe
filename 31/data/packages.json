@@ -1,0 +1,364 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Login test suit",
+    "children" : [ {
+      "name" : "Successful login",
+      "uid" : "21833eb6dd6a5510",
+      "parentUid" : "fda9d5a6c05c6644a429f903c7a1dea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768239456,
+        "stop" : 1636768253478,
+        "duration" : 14022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/1", "regression" ]
+    }, {
+      "name" : "Show password button check",
+      "uid" : "c6654da97b11aa1e",
+      "parentUid" : "fda9d5a6c05c6644a429f903c7a1dea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768239462,
+        "stop" : 1636768253475,
+        "duration" : 14013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+    }, {
+      "name" : "Emty password field",
+      "uid" : "9b6405cd395ae93c",
+      "parentUid" : "fda9d5a6c05c6644a429f903c7a1dea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768239465,
+        "stop" : 1636768253470,
+        "duration" : 14005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/3", "regression" ]
+    }, {
+      "name" : "Wrong password",
+      "uid" : "f1c8370581ef7488",
+      "parentUid" : "fda9d5a6c05c6644a429f903c7a1dea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768240827,
+        "stop" : 1636768246670,
+        "duration" : 5843
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+    }, {
+      "name" : "Empty email login",
+      "uid" : "6e629855eeff2ebb",
+      "parentUid" : "fda9d5a6c05c6644a429f903c7a1dea5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768240935,
+        "stop" : 1636768246383,
+        "duration" : 5448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    } ],
+    "uid" : "fda9d5a6c05c6644a429f903c7a1dea5"
+  }, {
+    "name" : "Register a new account testSuite",
+    "children" : [ {
+      "name" : "Successful registration",
+      "uid" : "7d8266d1a4934228",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768249837,
+        "stop" : 1636768260206,
+        "duration" : 10369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/1", "regression" ]
+    }, {
+      "name" : "Valid email address: lowercase and capital leters in local part",
+      "uid" : "e574e16876123b16",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636768249844,
+        "stop" : 1636768258895,
+        "duration" : 9051
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+    }, {
+      "name" : "Valid email address: printable characters !#$%&'*+-/=?^_`{|}~s in local part",
+      "uid" : "55f5ef497fe266d2",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768249916,
+        "stop" : 1636768258887,
+        "duration" : 8971
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+    }, {
+      "name" : "Valid email address: digits and dot in local part",
+      "uid" : "2197addf3be30048",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768254022,
+        "stop" : 1636768260489,
+        "duration" : 6467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+    }, {
+      "name" : "Valid email address: top level domain in domain name",
+      "uid" : "1fcb188c2e65b618",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768257629,
+        "stop" : 1636768266105,
+        "duration" : 8476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+    }, {
+      "name" : "Valid email address: one letter local part",
+      "uid" : "4f599d1bee283cf8",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768257704,
+        "stop" : 1636768265487,
+        "duration" : 7783
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+    }, {
+      "name" : "Valid email address: only capital letters in local part",
+      "uid" : "3454f7b9d768e7fe",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636768263424,
+        "stop" : 1636768272708,
+        "duration" : 9284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+    }, {
+      "name" : "All fields are empty",
+      "uid" : "71518dc63cec6f99",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768264683,
+        "stop" : 1636768271728,
+        "duration" : 7045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/3", "regression" ]
+    }, {
+      "name" : "Wrong password : only capital letters",
+      "uid" : "d84dc75ec515d691",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768264782,
+        "stop" : 1636768271827,
+        "duration" : 7045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+    }, {
+      "name" : "Wrong password : only lowercase letters",
+      "uid" : "7329ef36c1743d99",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768268892,
+        "stop" : 1636768274318,
+        "duration" : 5426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+    }, {
+      "name" : "Wrong password : less than 8 symbols password",
+      "uid" : "ded0836ad06a739b",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768271453,
+        "stop" : 1636768278205,
+        "duration" : 6752
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+    }, {
+      "name" : "Wrong password : cyrillic symbols",
+      "uid" : "817558314d3a97d0",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768271455,
+        "stop" : 1636768278121,
+        "duration" : 6666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+    }, {
+      "name" : "Wrong password : without digits",
+      "uid" : "9dfe9a038bd42374",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768274515,
+        "stop" : 1636768280120,
+        "duration" : 5605
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+    }, {
+      "name" : "Wrong email : double dot in the middle of local part",
+      "uid" : "7aad239513f8b2c1",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768276438,
+        "stop" : 1636768281922,
+        "duration" : 5484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    }, {
+      "name" : "Wrong email : quotes and double dot in local part",
+      "uid" : "4de06e8778c370af",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768278169,
+        "stop" : 1636768284868,
+        "duration" : 6699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    }, {
+      "name" : "Wrong email : without @ symbol",
+      "uid" : "aa889a06c1ebff9d",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768280020,
+        "stop" : 1636768285516,
+        "duration" : 5496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    }, {
+      "name" : "Wrong email : cyrillic symbols in local part",
+      "uid" : "571de0f7933a23f8",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768282690,
+        "stop" : 1636768288924,
+        "duration" : 6234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    }, {
+      "name" : "Wrong email : only digits in local part",
+      "uid" : "9095a395ebce5aa0",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768283926,
+        "stop" : 1636768289675,
+        "duration" : 5749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    }, {
+      "name" : "Wrong email : only special symbols in Local part",
+      "uid" : "77c94a5ba527f3ac",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636768285741,
+        "stop" : 1636768291455,
+        "duration" : 5714
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    }, {
+      "name" : "Wrong email : dot in the beginning of local part",
+      "uid" : "e557ccc4c444cc95",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636768300525,
+        "stop" : 1636768318352,
+        "duration" : 17827
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    }, {
+      "name" : "Wrong email : dot in the end of local part",
+      "uid" : "fd0fb1aa00ec1256",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636768301921,
+        "stop" : 1636768319898,
+        "duration" : 17977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    }, {
+      "name" : "Wrong email : local part > 64 characters",
+      "uid" : "15c4a2f8c2d2486f",
+      "parentUid" : "e08e2d71e343290cbb46c6e0c9e0f0eb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1636768304325,
+        "stop" : 1636768322900,
+        "duration" : 18575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+    } ],
+    "uid" : "e08e2d71e343290cbb46c6e0c9e0f0eb"
+  } ],
+  "name" : "packages"
+}
