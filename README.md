@@ -7,7 +7,7 @@ Ekaterina Pertseva
 ## Project status
 - [ ] In progress
 
-##Set up project
+## Set up project
 1. Clone or download project.
 2. In the project folder use command: npm install. 
 
