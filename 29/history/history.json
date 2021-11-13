@@ -1,0 +1,569 @@
+{
+  "d89cfafbdceb0cb998972a5dcb834870" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b78629812506b99",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/3b78629812506b99",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767649843,
+        "stop" : 1636767655161,
+        "duration" : 5318
+      }
+    } ]
+  },
+  "ddc74a3965c7e9e1309c580dd165fa4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d511827f6b1df3cb",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/d511827f6b1df3cb",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767654233,
+        "stop" : 1636767659674,
+        "duration" : 5441
+      }
+    } ]
+  },
+  "8739413f534053e66dbadfd16753588d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e995d043074c27f4",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/e995d043074c27f4",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767634885,
+        "stop" : 1636767639664,
+        "duration" : 4779
+      }
+    } ]
+  },
+  "effc62c4e1d94cb26906c266737668de" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "83586504db8daa15",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/83586504db8daa15",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767665863,
+        "stop" : 1636767671737,
+        "duration" : 5874
+      }
+    } ]
+  },
+  "f780f755ff57ca26cc1a06e9858020b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b48549d91a391f8",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/7b48549d91a391f8",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767644520,
+        "stop" : 1636767650734,
+        "duration" : 6214
+      }
+    } ]
+  },
+  "5369c03644e2430a391cc056bde520ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "223f3817779bbef9",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/223f3817779bbef9",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767632608,
+        "stop" : 1636767641355,
+        "duration" : 8747
+      }
+    } ]
+  },
+  "92462c417396b4ac9d3919f66301ddc0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc316ef186ada18d",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/cc316ef186ada18d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected true to be falsy",
+      "time" : {
+        "start" : 1636767642643,
+        "stop" : 1636767650387,
+        "duration" : 7744
+      }
+    } ]
+  },
+  "623757eb91749ea186796a6132f7f7f8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88a26ee1cbdb25cf",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/88a26ee1cbdb25cf",
+      "status" : "failed",
+      "statusDetails" : "This test has been broken",
+      "time" : {
+        "start" : 1636767679815,
+        "stop" : 1636767698138,
+        "duration" : 18323
+      }
+    } ]
+  },
+  "46d2cfef2ad798a99a025acb3a92bc82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4469bf4b331de964",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/4469bf4b331de964",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767648277,
+        "stop" : 1636767654072,
+        "duration" : 5795
+      }
+    } ]
+  },
+  "f304ad68d2b08d865858f8724c72a307" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efe831595fcab5a4",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/efe831595fcab5a4",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767622794,
+        "stop" : 1636767635022,
+        "duration" : 12228
+      }
+    } ]
+  },
+  "c059c7d3c64d749489ccf89d17047020" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4530bb42a9534bde",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/4530bb42a9534bde",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767637703,
+        "stop" : 1636767643323,
+        "duration" : 5620
+      }
+    } ]
+  },
+  "954028f4a8445a099805cf577fc68135" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "387a99e1e1097abe",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/387a99e1e1097abe",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767661485,
+        "stop" : 1636767667418,
+        "duration" : 5933
+      }
+    } ]
+  },
+  "311a745f1faf95c565cdfee29c520ec8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa90dc11075c7d00",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/fa90dc11075c7d00",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767623456,
+        "stop" : 1636767628622,
+        "duration" : 5166
+      }
+    } ]
+  },
+  "592aaabee22c53ff2b43a5ac354bff70" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2344fa956a8a0a5b",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/2344fa956a8a0a5b",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767655540,
+        "stop" : 1636767661223,
+        "duration" : 5683
+      }
+    } ]
+  },
+  "c517af1b2da0b494937eb1cc9dc7c254" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bdc2368f74e206f",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/8bdc2368f74e206f",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767648784,
+        "stop" : 1636767654841,
+        "duration" : 6057
+      }
+    } ]
+  },
+  "cc79e1fca655cdb9dccc81b53eed8f85" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f66e72568f90ba8e",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/f66e72568f90ba8e",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767660091,
+        "stop" : 1636767665942,
+        "duration" : 5851
+      }
+    } ]
+  },
+  "9bdce89e121bdec6270d98873ea3e42" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77b16caf11c7683f",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/77b16caf11c7683f",
+      "status" : "failed",
+      "statusDetails" : "This test has been broken",
+      "time" : {
+        "start" : 1636767683853,
+        "stop" : 1636767701820,
+        "duration" : 17967
+      }
+    } ]
+  },
+  "13c8cbfdcfb275ea8b04f4b734039c6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30b4c9abf2246183",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/30b4c9abf2246183",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767638292,
+        "stop" : 1636767643972,
+        "duration" : 5680
+      }
+    } ]
+  },
+  "5fdee379d8c0360dbf310cc147a8b238" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "383c3000b899fe88",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/383c3000b899fe88",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767642724,
+        "stop" : 1636767647735,
+        "duration" : 5011
+      }
+    } ]
+  },
+  "90e5c248a586a1d52d891f2987d33fd3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6aabf1d2daec20e",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/6aabf1d2daec20e",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767659965,
+        "stop" : 1636767666081,
+        "duration" : 6116
+      }
+    } ]
+  },
+  "47b06105084367a531261c6c2e6a7a1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14223e1544b776e4",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/14223e1544b776e4",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767623843,
+        "stop" : 1636767628626,
+        "duration" : 4783
+      }
+    } ]
+  },
+  "58536748d45bf87e162f3eec2006a3fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d9e44cc3e89700b",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/2d9e44cc3e89700b",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767622818,
+        "stop" : 1636767635065,
+        "duration" : 12247
+      }
+    } ]
+  },
+  "f43537d8aa0f9af10320c00ad9cff7c0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b48dfc3a778795cc",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/b48dfc3a778795cc",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767632569,
+        "stop" : 1636767642317,
+        "duration" : 9748
+      }
+    } ]
+  },
+  "70d8a73840d36c05ec4c1e04df73cc44" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7635be6d1a2ea5d3",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/7635be6d1a2ea5d3",
+      "status" : "failed",
+      "statusDetails" : "This test has been broken",
+      "time" : {
+        "start" : 1636767678392,
+        "stop" : 1636767696678,
+        "duration" : 18286
+      }
+    } ]
+  },
+  "4361eb18ad36761506e0741b12d7a688" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f0318b5f5bde544",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/9f0318b5f5bde544",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767622816,
+        "stop" : 1636767635063,
+        "duration" : 12247
+      }
+    } ]
+  },
+  "fe02b61eeda9ba3feb93c56a813530fd" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eea9ad645808b3c8",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/eea9ad645808b3c8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: expected true to be falsy",
+      "time" : {
+        "start" : 1636767632576,
+        "stop" : 1636767641681,
+        "duration" : 9105
+      }
+    } ]
+  },
+  "862547743f67dbb828f9cdff14c5ddc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78ffb8135129a9d0",
+      "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/78ffb8135129a9d0",
+      "status" : "passed",
+      "statusDetails" : "This test has been passed.",
+      "time" : {
+        "start" : 1636767653838,
+        "stop" : 1636767659382,
+        "duration" : 5544
+      }
+    } ]
+  }
+}

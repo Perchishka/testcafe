@@ -1,0 +1,88 @@
+{
+  "uid" : "eea9ad645808b3c8",
+  "name" : "Valid email address: lowercase and capital leters in local part",
+  "fullName" : "Register a new account testSuite.Valid email address: lowercase and capital leters in local part",
+  "historyId" : "fe02b61eeda9ba3feb93c56a813530fd",
+  "time" : {
+    "start" : 1636767632576,
+    "stop" : 1636767641681,
+    "duration" : 9105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: expected true to be falsy",
+  "statusTrace" : "AssertionError: expected true to be falsy\n                \n                Browser: Chrome 95.0.4638.69 / Linux 0.0\n                Screenshot: /home/runner/work/testcafe/testcafe/artifacts/screenshots/2021-11-13_01-40-09/test-7/Chrome_95.0.4638.69_Linux_0.0/errors/1.png\n                \n                   43 |        SEVERITY: 'normal',\n                   44 |        STORY: 'STORY-1'\n                   45 |    })(`Valid email address: ${c.name}`, async () => {\n                   46 |        await t.ctx.inputFieldsFragments.fillEmailField(c.email);\n                   47 |        await t.ctx.registrationPage.clickCreateAccountButton();\n                 > 48 |        await t.expect(await t.ctx.inputFieldsFragments.errorElementExist('email_address')).notOk();\n                   49 |    });\n                   50 |});\n                   51 |\n                   52 |test.meta({\n                   53 |    ID: '3',\n                \n                   at <anonymous> (/home/runner/work/testcafe/testcafe/tests/registrationTests.js:48:93)\n                   at asyncGeneratorStep (/home/runner/work/testcafe/testcafe/tests/registrationTests.js:4:307)\n                   at _next (/home/runner/work/testcafe/testcafe/tests/registrationTests.js:4:645)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: expected true to be falsy",
+    "statusTrace" : "AssertionError: expected true to be falsy\n                \n                Browser: Chrome 95.0.4638.69 / Linux 0.0\n                Screenshot: /home/runner/work/testcafe/testcafe/artifacts/screenshots/2021-11-13_01-40-09/test-7/Chrome_95.0.4638.69_Linux_0.0/errors/1.png\n                \n                   43 |        SEVERITY: 'normal',\n                   44 |        STORY: 'STORY-1'\n                   45 |    })(`Valid email address: ${c.name}`, async () => {\n                   46 |        await t.ctx.inputFieldsFragments.fillEmailField(c.email);\n                   47 |        await t.ctx.registrationPage.clickCreateAccountButton();\n                 > 48 |        await t.expect(await t.ctx.inputFieldsFragments.errorElementExist('email_address')).notOk();\n                   49 |    });\n                   50 |});\n                   51 |\n                   52 |test.meta({\n                   53 |    ID: '3',\n                \n                   at <anonymous> (/home/runner/work/testcafe/testcafe/tests/registrationTests.js:48:93)\n                   at asyncGeneratorStep (/home/runner/work/testcafe/testcafe/tests/registrationTests.js:4:307)\n                   at _next (/home/runner/work/testcafe/testcafe/tests/registrationTests.js:4:645)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "42ac6a8695bc97b2",
+      "name" : "Screenshot",
+      "source" : "42ac6a8695bc97b2.png",
+      "type" : "image/png",
+      "size" : 341969
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Valid email address: lowercase and capital leters in local part"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/2"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eea9ad645808b3c8.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+}
