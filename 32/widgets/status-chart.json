@@ -1,0 +1,271 @@
+[ {
+  "uid" : "e040efbbd1d61ef3",
+  "name" : "Wrong password : without digits",
+  "time" : {
+    "start" : 1636769559738,
+    "stop" : 1636769565152,
+    "duration" : 5414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ef41603af05686c",
+  "name" : "Valid email address: top level domain in domain name",
+  "time" : {
+    "start" : 1636769541636,
+    "stop" : 1636769547361,
+    "duration" : 5725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c62a5bf450c53a4e",
+  "name" : "Wrong email : only special symbols in Local part",
+  "time" : {
+    "start" : 1636769570988,
+    "stop" : 1636769577152,
+    "duration" : 6164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4abfe6c05e48c24",
+  "name" : "Show password button check",
+  "time" : {
+    "start" : 1636769526185,
+    "stop" : 1636769539814,
+    "duration" : 13629
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f831f288c68f82e2",
+  "name" : "Emty password field",
+  "time" : {
+    "start" : 1636769526186,
+    "stop" : 1636769539806,
+    "duration" : 13620
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3d660c1f81c9b38",
+  "name" : "Valid email address: lowercase and capital leters in local part",
+  "time" : {
+    "start" : 1636769536706,
+    "stop" : 1636769546554,
+    "duration" : 9848
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3658df49e4c80c22",
+  "name" : "Wrong password",
+  "time" : {
+    "start" : 1636769526846,
+    "stop" : 1636769532127,
+    "duration" : 5281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78883e401514ee91",
+  "name" : "Wrong password : only capital letters",
+  "time" : {
+    "start" : 1636769549060,
+    "stop" : 1636769555839,
+    "duration" : 6779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ed926ac4213d0c2",
+  "name" : "Successful registration",
+  "time" : {
+    "start" : 1636769536704,
+    "stop" : 1636769547217,
+    "duration" : 10513
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "13329fe02aff0cbe",
+  "name" : "Wrong email : double dot in the middle of local part",
+  "time" : {
+    "start" : 1636769562175,
+    "stop" : 1636769568873,
+    "duration" : 6698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56879d6e78830535",
+  "name" : "Wrong email : without @ symbol",
+  "time" : {
+    "start" : 1636769564802,
+    "stop" : 1636769569859,
+    "duration" : 5057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c35d4988e04a0a46",
+  "name" : "Empty email login",
+  "time" : {
+    "start" : 1636769527331,
+    "stop" : 1636769532583,
+    "duration" : 5252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ee0ac3562172dc8",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1636769526178,
+    "stop" : 1636769539801,
+    "duration" : 13623
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "cdeeef7117f43117",
+  "name" : "Wrong email : cyrillic symbols in local part",
+  "time" : {
+    "start" : 1636769568584,
+    "stop" : 1636769574986,
+    "duration" : 6402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "994d4dbb9e63e972",
+  "name" : "Wrong email : local part > 64 characters",
+  "time" : {
+    "start" : 1636769590275,
+    "stop" : 1636769609550,
+    "duration" : 19275
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f407ef8a0bdeab7",
+  "name" : "Wrong password : only lowercase letters",
+  "time" : {
+    "start" : 1636769554316,
+    "stop" : 1636769561209,
+    "duration" : 6893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "431b6abe4c3baaa8",
+  "name" : "Valid email address: printable characters !#$%&'*+-/=?^_`{|}~s in local part",
+  "time" : {
+    "start" : 1636769536739,
+    "stop" : 1636769546139,
+    "duration" : 9400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d95d17588678e46",
+  "name" : "Wrong email : dot in the beginning of local part",
+  "time" : {
+    "start" : 1636769587516,
+    "stop" : 1636769606441,
+    "duration" : 18925
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "31f17144933d6cb0",
+  "name" : "Wrong email : dot in the end of local part",
+  "time" : {
+    "start" : 1636769588159,
+    "stop" : 1636769607460,
+    "duration" : 19301
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dffa9336af55b8c3",
+  "name" : "Wrong password : less than 8 symbols password",
+  "time" : {
+    "start" : 1636769555435,
+    "stop" : 1636769562508,
+    "duration" : 7073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "558d3625acb18227",
+  "name" : "Wrong email : only digits in local part",
+  "time" : {
+    "start" : 1636769568843,
+    "stop" : 1636769575124,
+    "duration" : 6281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a4d4aba993e1fa6",
+  "name" : "Valid email address: digits and dot in local part",
+  "time" : {
+    "start" : 1636769539511,
+    "stop" : 1636769544845,
+    "duration" : 5334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdf9cb1425b9ebae",
+  "name" : "Valid email address: only capital letters in local part",
+  "time" : {
+    "start" : 1636769547391,
+    "stop" : 1636769555258,
+    "duration" : 7867
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b76a1286f1649af",
+  "name" : "Valid email address: one letter local part",
+  "time" : {
+    "start" : 1636769542273,
+    "stop" : 1636769547804,
+    "duration" : 5531
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3954c2bc99db1ade",
+  "name" : "All fields are empty",
+  "time" : {
+    "start" : 1636769548345,
+    "stop" : 1636769555044,
+    "duration" : 6699
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "435367da6b2724bd",
+  "name" : "Wrong email : quotes and double dot in local part",
+  "time" : {
+    "start" : 1636769562544,
+    "stop" : 1636769569492,
+    "duration" : 6948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbdeab0b44108abc",
+  "name" : "Wrong password : cyrillic symbols",
+  "time" : {
+    "start" : 1636769555584,
+    "stop" : 1636769562102,
+    "duration" : 6518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

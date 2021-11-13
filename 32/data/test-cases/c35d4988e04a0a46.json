@@ -1,0 +1,66 @@
+{
+  "uid" : "c35d4988e04a0a46",
+  "name" : "Empty email login",
+  "fullName" : "Login test suite.Empty email login",
+  "historyId" : "2a31797f5f2e3a3787048ee4dc96cc29",
+  "time" : {
+    "start" : 1636769527331,
+    "stop" : 1636769532583,
+    "duration" : 5252
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Login test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Empty email login"
+  }, {
+    "name" : "package",
+    "value" : "Login test suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-2"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/5"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c35d4988e04a0a46.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+}

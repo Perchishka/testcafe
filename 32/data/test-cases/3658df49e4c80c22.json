@@ -1,0 +1,66 @@
+{
+  "uid" : "3658df49e4c80c22",
+  "name" : "Wrong password",
+  "fullName" : "Login test suite.Wrong password",
+  "historyId" : "6942cd7d65ceceead4c849e332907565",
+  "time" : {
+    "start" : 1636769526846,
+    "stop" : 1636769532127,
+    "duration" : 5281
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Login test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong password"
+  }, {
+    "name" : "package",
+    "value" : "Login test suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-2"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/4"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3658df49e4c80c22.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/4", "regression" ]
+}

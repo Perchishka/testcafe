@@ -1,0 +1,66 @@
+{
+  "uid" : "f831f288c68f82e2",
+  "name" : "Emty password field",
+  "fullName" : "Login test suite.Emty password field",
+  "historyId" : "a813a56943367566b7bc79ea82831ec8",
+  "time" : {
+    "start" : 1636769526186,
+    "stop" : 1636769539806,
+    "duration" : 13620
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Login test suite"
+  }, {
+    "name" : "suite",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testClass",
+    "value" : "Login test suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Emty password field"
+  }, {
+    "name" : "package",
+    "value" : "Login test suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-2"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/3"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f831f288c68f82e2.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-2", "https://jira.example.ca/secure/Tests.jspa#/testCase/3", "regression" ]
+}
