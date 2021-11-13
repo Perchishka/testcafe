@@ -9,7 +9,7 @@ Ekaterina Pertseva
 
 ## Run test cases and reporting commands
 All test cases are located in the framework/tests package.
-### To run test locally:
+### To run tests locally:
 1. Run test cases in chrome execute command: testcafe chrome --reporter allure tests
 2. To generate Allure report execute command: allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report
 
