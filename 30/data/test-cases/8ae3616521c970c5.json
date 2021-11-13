@@ -1,0 +1,87 @@
+{
+  "uid" : "8ae3616521c970c5",
+  "name" : "Successful registration",
+  "fullName" : "Register a new account testSuite.Successful registration",
+  "historyId" : "f43537d8aa0f9af10320c00ad9cff7c0",
+  "time" : {
+    "start" : 1636768089269,
+    "stop" : 1636768099717,
+    "duration" : 10448
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Successful registration"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/1"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "b48dfc3a778795cc",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/b48dfc3a778795cc",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636767632569,
+          "stop" : 1636767642317,
+          "duration" : 9748
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8ae3616521c970c5.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/1", "regression" ]
+}

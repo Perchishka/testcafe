@@ -1,0 +1,87 @@
+{
+  "uid" : "c696d03a278daa95",
+  "name" : "Wrong email : without @ symbol",
+  "fullName" : "Register a new account testSuite.Wrong email : without @ symbol",
+  "historyId" : "90e5c248a586a1d52d891f2987d33fd3",
+  "time" : {
+    "start" : 1636768111290,
+    "stop" : 1636768115899,
+    "duration" : 4609
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "statusMessage" : "This test has been passed.",
+  "statusTrace" : "no error",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "regression"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testClass",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Wrong email : without @ symbol"
+  }, {
+    "name" : "package",
+    "value" : "Register a new account testSuite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "JIRA Story Link",
+    "value" : "https://jira.example.ca/browse/STORY-1"
+  }, {
+    "name" : "JIRA Test Link",
+    "value" : "https://jira.example.ca/secure/Tests.jspa#/testCase/5"
+  }, {
+    "name" : "User Agent",
+    "value" : "regression"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6aabf1d2daec20e",
+        "reportUrl" : "https://Perchishka.github.io/testcafe/29//#testresult/6aabf1d2daec20e",
+        "status" : "passed",
+        "statusDetails" : "This test has been passed.",
+        "time" : {
+          "start" : 1636767659965,
+          "stop" : 1636767666081,
+          "duration" : 6116
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c696d03a278daa95.json",
+  "parameterValues" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+}

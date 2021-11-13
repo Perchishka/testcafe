@@ -1,0 +1,82 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: expected true to be falsy",
+      "children" : [ {
+        "name" : "Valid email address: lowercase and capital leters in local part",
+        "uid" : "a7e06dd0d8ad33fd",
+        "parentUid" : "47c0ded68aa4bc020c8f7e480ed69b8c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636768089272,
+          "stop" : 1636768099578,
+          "duration" : 10306
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+      }, {
+        "name" : "Valid email address: only capital letters in local part",
+        "uid" : "bc303a2f07552a06",
+        "parentUid" : "47c0ded68aa4bc020c8f7e480ed69b8c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636768098492,
+          "stop" : 1636768106105,
+          "duration" : 7613
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/2", "regression" ]
+      } ],
+      "uid" : "47c0ded68aa4bc020c8f7e480ed69b8c"
+    }, {
+      "name" : "This test has been broken",
+      "children" : [ {
+        "name" : "Wrong email : dot in the beginning of local part",
+        "uid" : "1ef8c4177065474c",
+        "parentUid" : "0caa3dfa63d91f62e71c10db3af631f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636768129876,
+          "stop" : 1636768146872,
+          "duration" : 16996
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+      }, {
+        "name" : "Wrong email : dot in the end of local part",
+        "uid" : "2e21f6e7085f6cb1",
+        "parentUid" : "0caa3dfa63d91f62e71c10db3af631f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636768131114,
+          "stop" : 1636768148036,
+          "duration" : 16922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+      }, {
+        "name" : "Wrong email : local part > 64 characters",
+        "uid" : "79f1e98531f5f806",
+        "parentUid" : "0caa3dfa63d91f62e71c10db3af631f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636768133434,
+          "stop" : 1636768150785,
+          "duration" : 17351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "https://jira.example.ca/browse/STORY-1", "https://jira.example.ca/secure/Tests.jspa#/testCase/5", "regression" ]
+      } ],
+      "uid" : "0caa3dfa63d91f62e71c10db3af631f9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
