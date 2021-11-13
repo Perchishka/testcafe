@@ -11,6 +11,4 @@
     "browserInitTimeout": 360000,
     "disablePageCaching": true,
     "color": true
-
-
 }
