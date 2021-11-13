@@ -4,7 +4,7 @@ import {t} from "testcafe";
 
 fixture
     .meta({TEST_RUN: 'regression'})
-    ('Login test suit').beforeEach(async t => {
+    ('Login test suite').beforeEach(async t => {
     await uiApp().LoginPage().goTo();
     t.ctx.loginPage = uiApp().LoginPage();
     t.ctx.email = credentials.email;
